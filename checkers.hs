@@ -3,7 +3,7 @@
 import Control.Arrow ((***))
 import Control.Monad (foldM, join, liftM2)
 import Data.Array (range)
-import Data.Map (Map, elems, fromListWith)
+import Data.Map (elems, fromListWith)
 import Data.Maybe (isJust)
 
 -- Red (R), Black (B), Empty (E)
