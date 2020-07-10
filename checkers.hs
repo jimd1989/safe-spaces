@@ -1,7 +1,7 @@
  {-# LANGUAGE UnicodeSyntax #-}
 
 import Control.Arrow ((***))
-import Control.Monad ((<=<), foldM, join, liftM2)
+import Control.Monad (foldM, join, liftM2)
 import Data.Array (range)
 import Data.Map (Map, elems, fromListWith)
 import Data.Maybe (isJust)
